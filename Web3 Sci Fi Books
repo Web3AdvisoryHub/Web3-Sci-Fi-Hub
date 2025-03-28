@@ -1,0 +1,30 @@
+/Web3_Sci_Fi_Books/
+  ├── Book_One/
+  │    ├── Chapters/
+  │    │    ├── Chapter_01.md
+  │    │    ├── Chapter_02.md
+  │    │    └── ... (each chapter as its own markdown file)
+  │    ├── NFT_Prompts/
+  │    │    ├── Chapter_01_NFT.png
+  │    │    ├── Chapter_01_NFT_Prompt.md
+  │    │    └── ... 
+  │    ├── Solidity_Challenges/
+  │    │    ├── Chapter_01_Quiz.md
+  │    │    ├── Chapter_01_Challenge.sol
+  │    │    └── ... (one set per chapter)
+  │    └── Sales_Page/
+  │         └── Book_One_Sales_Page.md
+  ├── Book_Two/
+  │    ├── Chapters/
+  │    │    ├── Chapter_01.md
+  │    │    ├── Chapter_02.md
+  │    │    └── ... (each chapter as its own markdown file)
+  │    ├── NFT_Prompts/
+  │    │    └── ... 
+  │    ├── Solidity_Challenges/
+  │    │    └── ... 
+  │    └── Sales_Page/
+  │         └── Book_Two_Sales_Page.md
+  └── Documentation/
+       ├── Revision_Structure.md  (this document)
+       └── Repo_Sync_Guide.md  (instructions for site build and asset integration)
