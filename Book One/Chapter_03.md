@@ -74,3 +74,16 @@ It glowed faintly in her palm.
 
 And for the first time since waking, Echo wasn’t sure who she could trust—not even herself.
 
+
+---
+
+📦 **Bonus Builder Drop: Vault of Echoes**  
+Ready to test your mythic contract skills?
+
+Unlock a flawed contract that echoes forgotten identities and exposes weak string protections.  
+- 🔐 [`VaultOfEchoes.sol`](./VaultOfEchoes.sol) – A smart contract that pretends to be secure... but lies.  
+- 🛠️ [`VaultOfEchoes_BuilderPrompt.md`](./VaultOfEchoes_BuilderPrompt.md) – Step-by-step refactor and lore challenge.
+
+This is a haunted node in the Chain. You’ve been warned.
+
+
