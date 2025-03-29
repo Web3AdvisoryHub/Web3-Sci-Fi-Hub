@@ -78,3 +78,18 @@ For help:
 
 🧠🪞 Mint your memory. Sign your soulchain. Welcome to the Codex.
 
+---
+
+Start here:  
+🧭 [`Chapter_01`](./Book%20One/Chapter_01.md) – Read the scene, solve the Solidity, and unlock the lore.
+---
+## 📜 License
+
+This project is released under the [MIT License](./LICENSE) (or your preferred license).
+
+## 🤝 Contribute
+
+Community remix portal coming soon!  
+Want to test, fork, or write new realms? Stay tuned for our [`CONTRIBUTE.md`](./CONTRIBUTE.md).
+---
+
