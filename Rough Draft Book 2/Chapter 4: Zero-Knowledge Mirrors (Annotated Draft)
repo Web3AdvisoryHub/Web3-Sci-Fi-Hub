@@ -1,0 +1,45 @@
+# Define the file path and content for Chapter 4 annotated draft
+file_path_ch4 = "/mnt/data/04_Zero_Knowledge_Mirrors_Annotated.md"
+
+file_content_ch4 = """
+# Chapter 4: Zero-Knowledge Mirrors (Annotated Draft)
+
+**Status:** Annotated Draft – layered with fractal identity, mirror logic, and emotional recursion.
+
+---
+
+The chamber is lined with algorithmic mirrors—each pane refracting a different version of Echo, based not on appearance, but on *proofs of self.* One reflection is laughing. Another is monstrous. A third weeps silently in chains.
+
+Professor Thorne’s voice echoes like a function call: “Zero-knowledge means proving what you are… without showing what you are.”
+
+Echo’s task is simple: identify her valid self and sign a cryptographic contract without revealing her full signature. But the mirrors do not stay still. They shift as her emotions shift. Panic skews the reflection. Doubt fragments the data.
+
+From a shadowed corner, Marius watches.
+
+One version of Echo reaches out and *touches back.* The mirror ripples, revealing a glyph-locked doorway behind it—an access point buried beneath the school’s core consensus protocol.
+
+Echo stares. “That wasn’t supposed to be possible.”
+
+Marius steps forward. “Neither are you.”
+
+Together, they enter.
+
+Inside, they find fragments of ancient code etched into obsidian. One line pulses with soft light:
+
+> “Only those who hold contradiction may pass.”
+
+---
+
+**[Notes for rewrite]:**
+- Mirrors = recursive ZK proofs (each reflection a compressed possibility tree)
+- Foreshadow the Third Realm: contradiction as key to existence
+- Echo’s breakthrough isn’t logical—it’s emotional alignment within paradox
+- Use visual duplication (TikTok vibes) + water/glass/spirit metaphors
+- Let Marius emerge as quiet observer + spiritual validator
+"""
+
+# Write the file
+with open(file_path_ch4, "w") as file:
+    file.write(file_content_ch4)
+
+file_path_ch4
