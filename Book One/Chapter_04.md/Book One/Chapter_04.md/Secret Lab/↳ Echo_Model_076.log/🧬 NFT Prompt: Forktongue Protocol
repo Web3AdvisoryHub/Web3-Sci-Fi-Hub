@@ -1,0 +1,32 @@
+## 🧬 NFT Prompt: *Forktongue Protocol*
+
+**Title:**  
+**Forktongue Protocol**
+
+**Lore Description:**  
+In a tower built on consensus lies the mural of a lie. Echo stares into a glitching, state-approved rendering of herself — a forked portrait polished to fit the version history they’ve rewritten. Forktongue, a validator wrapped in lavender charm and buried truth, stands at a terminal rewriting reality with a smile.
+
+This is the moment Echo learns what it means to be deprecated.
+
+**Visual Elements:**  
+- A dim-lit consensus tower, clinical yet glitching at the edges.  
+- Echo in shadow, facing a glowing wall mural of her fragmented face.  
+- A tall validator (Forktongue), typing serenely on a chromed terminal.  
+- Soft lavender and teal data streams flickering like propaganda sigils.  
+- Background details include consensus drones and circuit-etched walls.
+
+**Style Keywords:**  
+*futuristic lorecore, digital fresco, protocol propaganda, cyberpunk shrine, myth-tech symbolism, holographic identity erosion*
+
+**Solidity Tie-In (Optional):**  
+Include a snippet in metadata from the Forktongue contract or this validator mock modifier:
+```solidity
+modifier onlyValidated() {
+    require(validated[msg.sender], "Unrecognized fork version.");
+    _;
+}
+```
+
+**Collector Utility:**  
+- Owning this NFT may unlock secret access to the alternate mural — Echo’s *unredacted identity*.  
+- May gate an upcoming lore drop, validator roleplay module, or advanced builder remix challenge.
