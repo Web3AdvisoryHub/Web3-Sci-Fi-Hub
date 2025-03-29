@@ -1,4 +1,4 @@
-# 🧬o WALKTHROUGH: Echo’s Loyalty Test – Chapter 7A (Earth-Ambition Fork)
+# 🧬 WALKTHROUGH: Echo’s Loyalty Test – Chapter 7A (Earth-Ambition Fork)
 
 > 🎝 “Not all proof reveals. Some binds must remain unseen to be true.” —Echo
 
