@@ -1,43 +1,42 @@
-# 🧠 Loyalty Test Walkthrough – Chapter 7A
+# 🧬 WALKTHROUGH: Echo’s Loyalty Test – Chapter 7A (Earth-Ambition Fork)
 
-This file explains the **Hybrid ZK + Betrayal Detection** contract used in the Earth-Ambition fork of Chapter 7.
-
----
-
-## 🔍 Narrative Context
-
-In this fork, Echo enters a realm of ambition and hierarchy. Trust is transactional, power is masked as loyalty, and betrayal is a known variable.
-
-Echo’s challenge?  
-**Prove loyalty without revealing identity.**  
-**Detect betrayal without emotion.**
+> 🎭 “Not all proof reveals. Some binds must remain unseen to be true.” —Echo
 
 ---
 
-## 🧪 Solidity Concepts Covered
+## 🌐 Context: Earth-Ambition Timeline
 
-| Feature | Story Equivalent | Web3 Skill |
-|--------|------------------|------------|
-| `keccak256()` | Echo hides her soulphrase in hash form | Hashing secrets (ZK logic) |
-| `mapping` | Ledger of trusted allies | Address-to-status logic |
-| `modifier` | Overseer role control | Function permission layers |
-| `revert()` | Reality collapse on betrayal | Error handling in access control |
-| `emit` events | Ledger echoes ripple out | Logs as proof of intent/action |
+Echo has entered a realm shaped by **systemic ambition**, where loyalty is monitored, betrayal is logged, and truth is measured in signatures — both emotional and cryptographic.
 
----
+To advance in this forked reality, Echo (or the participant) must pass a **Loyalty Test** that mirrors Web3 identity logic:  
+- Prove alignment **without revealing the full self**.  
+- Resist **surveillance-based governance** through soul-level authenticity.
 
-## 🧬 Educational Purpose
-
-This challenge teaches:
-
-- How zero-knowledge-like verification works in Solidity
-- How trust systems can be expressed in smart contracts
-- Why **access control** = narrative worldbuilding
-- Emotional implications of betrayal on-chain
+This contract simulates those stakes.
 
 ---
 
-## 🗝️ Sample SoulPhrase (for test use only)
+## 🎯 Objective
 
-```solidity
-keccak256(abi.encodePacked("echo-always-remembers"))
+Your goal is to **pass Echo’s Loyalty Test** by:
+
+- Hashing a secret phrase (`soulPhrase`) that matches the on-chain `soulHash`
+- Calling `verifyIdentity()` with that phrase
+- Then unlocking access through `requestAccess()`
+
+Failing to prove your loyalty = automatic logging as a potential betrayer.
+
+---
+
+## 🔧 Technical Setup (How to Play)
+
+**Requirements:**
+- Remix IDE (remix.ethereum.org) or Hardhat
+- Any Ethereum wallet (MetaMask, etc.)
+- Solidity compiler 0.8.19+
+
+**Steps in Remix:**
+1. Copy `challenge.sol` into Remix.
+2. In `Deploy & Run`, pass a hash to the constructor:
+   ```solidity
+   keccak256(abi.encodePacked("echo-always-remembers"))
