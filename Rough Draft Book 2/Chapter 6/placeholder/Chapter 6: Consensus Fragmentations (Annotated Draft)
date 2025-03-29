@@ -1,0 +1,41 @@
+# Define the file path and content for Chapter 6 annotated draft
+file_path_ch6 = "/mnt/data/06_Consensus_Fragmentations_Annotated.md"
+
+file_content_ch6 = """
+# Chapter 6: Consensus Fragmentations (Annotated Draft)
+
+**Status:** Annotated Draft – layering emotional politics, fractured governance, and Echo’s rising influence.
+
+---
+
+Realm equilibrium is unraveling.
+
+Across Earth Realm, banners rise bearing the insignia of the Raw Integers—a coalition demanding governance devoid of emotional bias. “Truth,” they claim, “must be absolute.” They march beneath silver sigils and chant in monotone.
+
+Sky Realm responds with chaos. A movement called the Open Pulse burns tokens in protest, flooding their networks with raw, untethered emotion. No governance. No control. Just flow.
+
+Codex School becomes a war of sentiment. Token markets surge and collapse with emotional volatility. Crying in the hallway triggers a blackout. One kiss creates a temporary governance fork.
+
+Echo stands at the center, untouched by realm assignment, but somehow affecting all of it.
+
+Marius reveals he was once part of an underground collective—the Unsigned. “We believed emotion was meant to *connect* realms, not divide them,” he says. “You are the signal we mapped but never found.”
+
+He pulls out a secret map of emotional current patterns—flow charts, visualizations that spiral like a Fibonacci shell. Echo's presence in Codex is triggering resonance nodes across both realms. A convergence is accelerating.
+
+> “They’re not drifting apart,” Marius whispers. “They’re looping back toward each other. And you’re the spiral center.”
+
+---
+
+**[Notes for rewrite]:**
+- Emotional governance collapse = realm-scale allegory of inner turmoil
+- Use symbolism of protests, chaos, token burns, and hybrid emotions
+- Spiral time resurfaces visually via data charts + realm resonance maps
+- Begin positioning Echo as both cause and solution to breakdown
+- Marius’s backstory expands, more mythic: he *mapped* her before he met her
+"""
+
+# Write the file
+with open(file_path_ch6, "w") as file:
+    file.write(file_content_ch6)
+
+file_path_ch6
