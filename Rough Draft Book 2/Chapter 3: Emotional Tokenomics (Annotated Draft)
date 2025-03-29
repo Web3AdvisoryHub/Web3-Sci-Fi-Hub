@@ -1,0 +1,43 @@
+# Define the file path and content for Chapter 3 annotated draft
+file_path_ch3 = "/mnt/data/03_Emotional_Tokenomics_Annotated.md"
+
+file_content_ch3 = """
+# Chapter 3: Emotional Tokenomics (Annotated Draft)
+
+**Status:** Annotated Draft – infused with immersive realm mechanics and TikTok-inspired mysticism.
+
+---
+
+The training chamber is a sphere of suspended light—hovering emotion-orbs pulse like thought bubbles in a dream, each containing a distilled human feeling: joy, grief, obsession, serenity.
+
+Lyra Voss moves through them like a conductor of sentiment, her fingertips grazing emotion with reverence. "Every realm is governed by its dominant token flow," she says. "Earth Realm thrives on ambition. Sky Realm breathes through wonder."
+
+She opens a palm, revealing a token of sorrow—deep blue, nearly black, with spiraling glyphs swimming inside. “This one was extracted from a farewell encoded mid-battle. Heavy. Valuable.”
+
+Echo approaches a bright orb of joy but reaches instinctively toward the sphere of grief. As her hand meets its surface, it fractures—not in destruction, but duplication. The grief splits into hundreds of smaller griefs that echo through the chamber, triggering a cascade of emotional resonance.
+
+The walls react—light dims. The room pulses with sadness. A distant alarm chimes: governance destabilization.
+
+Lyra steadies Echo. “You’re feeling the raw code beneath the emotion. That’s not normal.”
+
+Echo blinks. “I didn’t mean to—”
+
+Lyra nods. “You didn’t. But you *could*. That’s the difference.”
+
+Echo turns to see her reflection in one of the grief shards. It’s not her—it’s a version of her crying underwater. She steps back, shaken.
+
+---
+
+**[Notes for rewrite]:**
+- Introduce emotional tokens as dynamic assets with latent resonance
+- Use orbs/visuals/sound cues to evoke TikTok-inspired dream-chamber
+- Echo’s raw connection = dangerous gift (touching unfiltered emotional logic)
+- Pull in water + spiral imagery (e.g. grief token splitting like a molecule)
+- Foreshadow realm destabilization mechanics
+"""
+
+# Write the file
+with open(file_path_ch3, "w") as file:
+    file.write(file_content_ch3)
+
+file_path_ch3
