@@ -1,0 +1,88 @@
+# Define the file path and content for Chapter 5 annotated draft
+file_path_ch5 = "/mnt/data/05_The_Soulbound_Lockbox_Annotated.md"
+
+file_content_ch5 = """
+# Chapter 5: The Soulbound Lockbox (Annotated Draft)
+
+**Status:** Annotated Draft – seeded with mythic vault mechanics, cosmic logic, and the Third Signer prophecy.
+
+---
+
+The Lockbox arrives at Codex School like a comet—escorted by sentinels from both realms, its edges shrouded in temporal shielding and myth-layer encryption.
+
+Its surface isn’t metal—it’s a liquid memory alloy that responds to proximity signatures. Glyphs drift like bioluminescent plankton beneath the surface, rearranging based on emotional frequency.
+
+Professor Thorne warns: “Only those with perfect signature resonance may access it without collapse.”
+
+Lyra stands beside Echo, scanning the encrypted fields. “It doesn’t respond to logic—it responds to memory. Echo, your signature is the only one I've seen that loops like a spiral. Like it remembers itself *backward*.”
+
+Despite Thorne’s objections, Echo steps forward. As her hands touch the surface, the lockbox neither opens nor rejects—it *fractures*, creating a third state.
+
+From within flows not code but a glowing nebula—swirls of unformed potential.
+
+A single sigil forms in the air:  
+> “The Third Signer Awakens.”
+
+Echo collapses to one knee, overwhelmed by the data flood. Inside her, the spiraling timelines begin to sync. Her body is humming with ancient resonance.
+
+Lyra gasps. “You didn’t just open it. You *unfolded* it.”
+
+---
+
+**[Notes for rewrite]:**
+- Lockbox = ancient quantum object seeded with soulbound reality seeds
+- Use language of breath, light, water, DNA helix + spiral time theory
+- "Third Signer" = mythic archetype, symbolic of contradiction harmonized
+- Begin to suggest Echo is not *anomaly* but *anchor*
+- Let Lyra shift from instructor to reverent witness
+"""
+
+# Write the file
+with open(file_path_ch5, "w") as file:
+    file.write(file_content_ch5)
+
+file_path_ch5
+# Re-run after reset to recreate Chapter 5 annotated draft
+file_path_ch5 = "/mnt/data/05_The_Soulbound_Lockbox_Annotated.md"
+
+file_content_ch5 = """
+# Chapter 5: The Soulbound Lockbox (Annotated Draft)
+
+**Status:** Annotated Draft – seeded with mythic vault mechanics, cosmic logic, and the Third Signer prophecy.
+
+---
+
+The Lockbox arrives at Codex School like a comet—escorted by sentinels from both realms, its edges shrouded in temporal shielding and myth-layer encryption.
+
+Its surface isn’t metal—it’s a liquid memory alloy that responds to proximity signatures. Glyphs drift like bioluminescent plankton beneath the surface, rearranging based on emotional frequency.
+
+Professor Thorne warns: “Only those with perfect signature resonance may access it without collapse.”
+
+Lyra stands beside Echo, scanning the encrypted fields. “It doesn’t respond to logic—it responds to memory. Echo, your signature is the only one I've seen that loops like a spiral. Like it remembers itself *backward*.”
+
+Despite Thorne’s objections, Echo steps forward. As her hands touch the surface, the lockbox neither opens nor rejects—it *fractures*, creating a third state.
+
+From within flows not code but a glowing nebula—swirls of unformed potential.
+
+A single sigil forms in the air:  
+> “The Third Signer Awakens.”
+
+Echo collapses to one knee, overwhelmed by the data flood. Inside her, the spiraling timelines begin to sync. Her body is humming with ancient resonance.
+
+Lyra gasps. “You didn’t just open it. You *unfolded* it.”
+
+---
+
+**[Notes for rewrite]:**
+- Lockbox = ancient quantum object seeded with soulbound reality seeds
+- Use language of breath, light, water, DNA helix + spiral time theory
+- "Third Signer" = mythic archetype, symbolic of contradiction harmonized
+- Begin to suggest Echo is not *anomaly* but *anchor*
+- Let Lyra shift from instructor to reverent witness
+"""
+
+# Write the file
+with open(file_path_ch5, "w") as file:
+    file.write(file_content_ch5)
+
+file_path_ch5
