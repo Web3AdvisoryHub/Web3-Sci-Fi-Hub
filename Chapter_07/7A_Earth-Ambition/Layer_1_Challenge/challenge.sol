@@ -1,56 +1,55 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-/**
- * @title LoyaltyTest
- * @dev Hybrid ZK-Style Proof with Betrayal Detection
- * Chapter 7A – Earth-Ambition Fork
- * Author: OmniMent Narrative Engine
- */
+/// @title Echo's Loyalty Test – Earth-Ambition Fork (Layer 1)
+/// @notice Loyalty proof with betrayal tracking and emotion gating
 
 contract LoyaltyTest {
-    address public overseer; // Echo or guardian figure
+    address public overseer;
     bytes32 private soulHash;
-    mapping(address => bool) public verifiedAllies;
+    mapping(address => bool) public verified;
+    mapping(address => uint8) public soulScore; // Reputation logic (0–100)
+    uint8 public emotionThreshold = 70;
 
-    event LoyaltyProven(address indexed subject);
-    event AccessDenied(address indexed intruder);
-    event BetrayalLogged(address indexed betrayer, uint256 timestamp);
+    event IdentityVerified(address user);
+    event AccessGranted(address user);
+    event FailedProof(address user, string reason);
+    event EmotionLogged(address user, uint8 level);
 
-    modifier onlyOverseer() {
-        require(msg.sender == overseer, "Not authorized.");
+    modifier onlyVerified() {
+        require(verified[msg.sender], "Not verified by soul resonance.");
         _;
     }
 
     constructor(bytes32 _soulHash) {
         overseer = msg.sender;
-        soulHash = _soulHash; // keccak256 hash of passphrase or identity shard
-        verifiedAllies[msg.sender] = true;
+        soulHash = _soulHash;
     }
 
-    /// @notice Proves loyalty via hashed soul phrase without revealing the secret
-    function verifyIdentity(string memory _soulPhrase) external {
-        require(
-            keccak256(abi.encodePacked(_soulPhrase)) == soulHash,
-            "Soul mismatch."
-        );
-        verifiedAllies[msg.sender] = true;
-        emit LoyaltyProven(msg.sender);
-    }
+    function verifyIdentity(string memory soulPhrase, uint8 emotionLevel) public {
+        emit EmotionLogged(msg.sender, emotionLevel);
 
-    /// @notice Requests access to Earth-Ambition node
-    function requestAccess() external {
-        if (verifiedAllies[msg.sender]) {
-            emit LoyaltyProven(msg.sender);
+        if (keccak256(abi.encodePacked(soulPhrase)) == soulHash) {
+            verified[msg.sender] = true;
+            soulScore[msg.sender] += 10;
+            emit IdentityVerified(msg.sender);
         } else {
-            emit BetrayalLogged(msg.sender, block.timestamp);
-            revert("Access denied: loyalty unverified.");
+            soulScore[msg.sender] -= 15;
+            emit FailedProof(msg.sender, "Phrase mismatch: potential betrayal logged.");
         }
     }
 
-    /// @notice Admin override to flag betrayal manually
-    function markAsBetrayer(address suspect) external onlyOverseer {
-        verifiedAllies[suspect] = false;
-        emit BetrayalLogged(suspect, block.timestamp);
+    function requestAccess() public onlyVerified returns (bool) {
+        if (soulScore[msg.sender] >= emotionThreshold) {
+            emit AccessGranted(msg.sender);
+            return true;
+        } else {
+            revert("Emotion threshold not met. Inner layer sealed.");
+        }
     }
-}
+
+    function getSoulScore(address user) public view returns (uint8) {
+        return soulScore[user];
+    }
+
+    function adjustThreshold
