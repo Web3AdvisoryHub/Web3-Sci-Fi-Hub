@@ -2,7 +2,7 @@
 
 ---
 
-### ✅ **Chapter 6 — NFT Visual Prompt (Finalized)**  
+### ✅ **Chapter 6 — NFT Visual Prompt**  
 **Title:** *Gaslight Code*  
 **Prompt:**  
 A cinematic digital painting set in a **dark underground blockchain vault**, its walls etched with glowing smart contract scripts and green flame sconces casting eerie light. **Echo**, the protagonist — a **post-human female with short iridescent hair and myth-tech armor**, stands inside a **cage of glowing green code strings**, facing down an uncanny specter wearing the **face of her mentor** (Captain Rhea) as it dissolves into flickering static and fragmented code.
