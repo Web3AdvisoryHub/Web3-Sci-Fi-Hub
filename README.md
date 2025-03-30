@@ -28,17 +28,24 @@ Each book is structured into forkable chapters with embedded smart contract chal
 
 ### 🗂 Folder Structure
 ```
-Web3-Sci-Fi-Hub/
-├── Chapter_01/ to Chapter_32/         # Core narrative flow (Book One)
-├── Chapter_07/
-│   ├── 7A_Earth-Ambition/
-│   │   ├── main.md                   # Narrative scene
-│   │   ├── Layer_1_Challenge/
-│   │   └── Layer_2_Challenge/
-│   └── 7B_Sky-Wonder/                # Parallel timeline (Book Two fork)
-├── Documentation/                   # Onboarding, Lore Guides
-└── realm_map.md                     # Visual index of forks & timelines
-```
+Web3_Sci_Fi_Books/
+│
+├── Book_One_Genesis_Protocol/
+│   ├── Chapters/
+│   ├── NFT_Prompts/
+│   ├── Solidity_Challenges/
+│   └── Sales_Page/
+│
+├── Book_Two_Sky_Realm_Fractals/
+│   ├── Chapters/
+│   ├── NFT_Prompts/
+│   ├── Solidity_Challenges/
+│   └── Sales_Page/
+│
+└── Documentation/
+    ├── Mapping_Document.md
+    └── Repo_Sync_Guide.md
+
 
 ### 🔗 Key Components
 | File | Purpose |
