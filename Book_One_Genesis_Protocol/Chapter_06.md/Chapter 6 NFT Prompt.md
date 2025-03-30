@@ -1,5 +1,3 @@
-Here’s the finalized **Chapter 6 NFT Prompt** for "Gaslight Code", tuned for visual accuracy, character consistency, and cinematic power:
-
 ---
 
 ### ✅ **Chapter 6 — NFT Visual Prompt (Finalized)**  
@@ -17,4 +15,3 @@ The environment blends **ancient architecture** (like a digital temple or Greek 
 
 ---
 
-Would you like the **challenge-based NFT prompt** for Chapter 6 next (focused on the Solidity puzzle of the deceptive contract)?
