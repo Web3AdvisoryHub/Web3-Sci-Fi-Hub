@@ -60,36 +60,49 @@ npx hardhat run scripts/deploy.js --network rinkeby
 Web3_Sci_Fi_Books/
 │
 ├── Book_One_Genesis_Protocol/
-│   ├── Chapters/ (Markdown chapters)
-│   ├── NFT_Prompts/ (Visual storytelling assets)
-│   ├── Solidity_Challenges/ (Interactive coding prompts)
-│   └── Sales_Page/ (Marketing and copywriting assets)
+│   ├── Chapters/
+│   │   ├── Ch01_Title.md
+│   │   ├── Ch02_Title.md
+│   │   └── ... (other chapters)
+│   ├── NFT_Prompts/
+│   │   ├── Prompt01.md
+│   │   └── ...
+│   ├── Solidity_Challenges/
+│   │   ├── Challenge01.sol
+│   │   └── ...
+│   └── Sales_Page/
+│       ├── landing_page_copy.md
+│       └── promotional_assets/
 │
 ├── Book_Two_Sky_Realm_Fractals/
-│   ├── Chapters/ (Branching narrative markdown files)
-│   ├── NFT_Prompts/ (Advanced interactive visuals)
-│   ├── Solidity_Challenges/ (Advanced DAO integration and ZK challenges)
-│   └── Sales_Page/ (Marketing materials and strategy)
+│   ├── Chapters/
+│   │   ├── Ch01_BranchA.md
+│   │   ├── Ch01_BranchB.md
+│   │   └── ...
+│   ├── NFT_Prompts/
+│   ├── Solidity_Challenges/
+│   └── Sales_Page/
 │
 ├── contracts/
-│   ├── StoryContract.sol (NFT-based storytelling)
-│   ├── CharacterNFT.sol (Characters minted as NFTs)
-│   ├── WorldDAO.sol (DAO for decentralized narrative decisions)
-│   ├── SciFiMarketplace.sol (Marketplace for NFTs)
-│   └── SciFiToken.sol (Utility/governance token)
+│   ├── StoryContract.sol
+│   ├── CharacterNFT.sol
+│   ├── WorldDAO.sol
+│   ├── SciFiMarketplace.sol
+│   └── SciFiToken.sol
 │
-├── frontend/ *(In progress)*
-│   └── React/Next.js dApp interface (coming soon)
+├── frontend/ *(coming soon!)*
+│   └── dApp_UI/
 │
 ├── scripts/
-│   └── deploy.js (Smart contract deployment scripts)
+│   └── deploy.js
 │
 ├── test/
-│   └── unit and integration tests
+│   └── unit_tests.js
 │
 └── Documentation/
-    ├── Mapping_Document.md (Narrative-technical map)
-    └── Repo_Sync_Guide.md (Contributor workflow)
+    ├── Mapping_Document.md
+    └── Repo_Sync_Guide.md
+
 ```
 
 ---
