@@ -1,3 +1,5 @@
+
+
 ---
 
 ### ✅ **Chapter 6 — NFT Visual Prompt (Finalized)**  
@@ -14,4 +16,6 @@ The environment blends **ancient architecture** (like a digital temple or Greek 
 **Emotional tone:** Suspenseful, confrontational, mythic — the moment Echo calls out the gaslight and reclaims her truth.
 
 ---
+
+
 
