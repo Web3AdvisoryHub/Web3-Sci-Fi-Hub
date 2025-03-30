@@ -1,4 +1,4 @@
-# 7A_Earth-Ambition — Main Narrative Thread
+# 7Main_Earth-Ambition — Main Narrative Thread
 
 **Timeline Variant:** Earth-Aligned  
 **Emotional Engine:** Ambition + Isolation  
