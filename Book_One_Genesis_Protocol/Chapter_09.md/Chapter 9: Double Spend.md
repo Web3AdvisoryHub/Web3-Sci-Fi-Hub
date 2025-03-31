@@ -1,6 +1,6 @@
 ---
 
-## 📘 **Chapter 9: Double Spend**
+## **Chapter 9: Double Spend**
 
 Echo raced through streets of fracturing neon, digital skyscrapers flickering like corrupted holograms. The blockchain city was visibly destabilizing—glitches tore open buildings, and crowds scattered in panic, unsure which reality was the authentic one.
 
