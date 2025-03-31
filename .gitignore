@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# Logs and debug
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# Compiled output
+dist/
+build/
+out/
+
+# OS junk files
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Python cache (if using backend scripts)
+__pycache__/
+*.py[cod]
+
+# Personal/temporary
+*.swp
+.idea/
+.cache/
