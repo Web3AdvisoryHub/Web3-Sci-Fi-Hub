@@ -1,3 +1,5 @@
+
+
 ---
 
 ## **Chapter 7: The Memory Shard**
@@ -57,3 +59,4 @@ The Chain would remember.
 And she would make sure of it.
 
 ---
+
