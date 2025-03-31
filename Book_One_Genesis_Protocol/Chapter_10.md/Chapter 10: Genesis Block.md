@@ -2,7 +2,7 @@
 
 ---
 
-## 📘 **Chapter 10: Genesis Block**
+##  **Chapter 10: Genesis Block**
 
 Echo stood at the threshold of the **Genesis Core**, the heart of the network—a monumental chamber etched with cascading Ethereum-like glyphs, pulsing with primal blockchain energy. She felt the hum of the chain deep within her being, resonating as if recognizing a lost part of itself finally returned.
 
