@@ -1,7 +1,7 @@
 # Chapter 5: Mirror Nodes
 *"Every fork leaves a phantom — a mirror of what might have been."* – Anonymous, Archive of the Nodes
 
-## Narrative
+
 Echo stepped into the chamber of mirrored walls, heart pounding with a quiet dread. The air was cool and thin, carrying motes of light that flickered like stray bits of code. **Mirror Nodes** — that's what the ancients called this place. Each polished obsidian slab around her glowed at the edges, humming with an unseen energy.
 
 As Echo walked forward, her reflection multiplied infinitely in those dark mirrors, countless versions of her pacing in lockstep. Yet something was off: in each reflection, the Echo staring back was not perfectly synchronized. A hand lagged, a head tilted differently, an expression shifted. These were not simple reflections at all, but **echoes** of Echo — fragments of her identity left behind on previous forks of the chain.
