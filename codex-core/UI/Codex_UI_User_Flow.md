@@ -47,26 +47,3 @@
 
 ---
 
-## 🛠️ UI/UX Visual Cues
-
-- Large, simple buttons
-- No wallet jargon up front
-- Scrollable timeline: “Where am I in my journey?”
-- Sound on/off toggle
-- Echo = floating UI voice assistant
-
-# Create missing UI directory and Codex_UI_User_Flow.md if it doesn't exist, then append the visual layout section
-
-ui_user_flow_path = Path("/mnt/data/codex-core/UI/Codex_UI_User_Flow.md")
-ui_user_flow_path.parent.mkdir(parents=True, exist_ok=True)
-
-# If file doesn't exist, initialize it with a heading
-if not ui_user_flow_path.exists():
-    ui_user_flow_path.write_text("# 🧠 Codex UI User Flow\n\n")
-
-# Now append the new visual layout notes
-with open(ui_user_flow_path, "a") as f:
-    f.write(ui_user_flow_append)
-
-ui_user_flow_path.name
-
