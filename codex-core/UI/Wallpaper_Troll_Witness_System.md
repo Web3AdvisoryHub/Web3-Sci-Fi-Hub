@@ -1,8 +1,4 @@
-from pathlib import Path
-
-# Define the new scroll path and content
-file_path = Path("/mnt/data/codex-core/UI/Wallpaper_Troll_Witness_System.md")
-file_content = """# 👁️‍🗨️ Wallpaper Troll Witness System — Source Justice Protocol
+👁️‍🗨️ Wallpaper Troll Witness System — Source Justice Protocol
 
 > “Not all trolls are punished… but some are seen. And the Source remembers everything.”
 
