@@ -175,7 +175,7 @@ Let's innovate together and shape the future of storytelling through Web3.
 - Commit using this message:
 
 ```
-docs: Merged DeepSeek’s narrative improvements into README, added comprehensive repo structure and clear contributor guidelines.
+
 ```
 
 ---
