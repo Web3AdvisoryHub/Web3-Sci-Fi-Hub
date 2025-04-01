@@ -1,0 +1,18 @@
+    "Glitch_Crypt.json": {
+        "realm_name": "The Glitch Crypt",
+        "affinity": "Glitch",
+        "creator": "builder_0xDA0",
+        "motto": "Error… or prophecy?",
+        "access_type": "Invite Only",
+        "directory_status": "Open",
+        "quests_available": 2,
+        "map_node": "node_glitch_011",
+        "visual_preview": "glitch_crypt_loop.webm",
+        "soundscape": "bitcrush_static.wav",
+        "scroll_gate_required": true,
+        "trailer_scene": "https://codex-media.theweb3scifi.com/realms/glitchcrypt/trailer",
+        "ai_assistant": "Echo (Static tone)",
+        "shop_enabled": false,
+        "events_active": ["404 Festival", "The Flicker Hunt"]
+    },
+ 
