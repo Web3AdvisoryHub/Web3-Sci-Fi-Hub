@@ -1,0 +1,28 @@
+from pathlib import Path
+
+# Define file path and content for Realm_Card_Sample.json
+file_path = Path("/mnt/data/codex-core/Directories/Sample_Realm_Card.json")
+file_content = """{
+  "realm_name": "The Dream Garden",
+  "affinity": "Dream",
+  "creator": "builder_0xMIRA",
+  "motto": "What grows here, remembers you.",
+  "access_type": "Public",
+  "directory_status": "Open",
+  "quests_available": 3,
+  "map_node": "node_star_024",
+  "visual_preview": "animated_garden_portal.mp4",
+  "soundscape": "dreamscape_hum.wav",
+  "scroll_gate_required": false,
+  "trailer_scene": "https://codex-media.theweb3scifi.com/realms/dreamgarden/intro",
+  "ai_assistant": "Echo (Dream tone)",
+  "shop_enabled": true,
+  "events_active": ["Moonlight Minting", "Scroll Bloom Festival"]
+}
+"""
+
+# Write the file
+file_path.parent.mkdir(parents=True, exist_ok=True)
+file_path.write_text(file_content)
+
+file_path.name
