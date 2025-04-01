@@ -1,0 +1,18 @@
+  "Ocean_Tideway.json": {
+        "realm_name": "Ocean Tideway",
+        "affinity": "Ocean",
+        "creator": "builder_SIGH",
+        "motto": "Not all waves leave.",
+        "access_type": "Public",
+        "directory_status": "Upcoming",
+        "quests_available": 4,
+        "map_node": "node_ocean_087",
+        "visual_preview": "ocean_tideway_glow.mp4",
+        "soundscape": "whale_song_reverb.aac",
+        "scroll_gate_required": false,
+        "trailer_scene": "https://codex-media.theweb3scifi.com/realms/tideway/preview",
+        "ai_assistant": "Echo (Siren tone)",
+        "shop_enabled": true,
+        "events_active": ["Shell Drop", "Surfchain Summons"]
+    },
+   
