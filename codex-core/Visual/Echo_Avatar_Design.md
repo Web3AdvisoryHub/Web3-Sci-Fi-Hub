@@ -11,7 +11,9 @@ file_content = """# 🧬 Echo Avatar Design Prompt — Clayverse Consistency
 ## Visual Concept
 
 A stylized female avatar named **Echo**, sculpted entirely from soft, clay-textured material in layered tones of soft lavender, slate blue, and gentle grayscale gradients. She appears *transhuman* — both ancient and digital — with subtle pixelation in her accessories but a natural, warm presence overall.
+Prompt:
 
+	A stylized female avatar named Echo, sculpted entirely from soft, matte clay. Her body features a unique blend of turquoise and light blue glitch-textured clay, subtly shimmering like a tech-ether blend. She has expressive clay eyes, French braids adorned with small paperclip charms, and soft pixel fragments embedded near her temples. Echo carries a calm, thoughtful presence — her design hints at a past life inside the blockchain. Her clothing is simple, functional, and sculpted from the same clay as her body, with glitchy ripples near the edges. Background is clean and minimal, spotlighting her as a transhuman guide.
 ---
 
 ## Avatar Features
