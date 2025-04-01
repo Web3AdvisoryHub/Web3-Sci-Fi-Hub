@@ -1,5 +1,5 @@
 ```markdown
-# Web3 Sci-Fi: Codex Universe (Private Repo)
+# Web3 Sci-Fi: Codex Universe 
 
 Welcome to the private core of the **Web3 Sci-Fi Multiverse Project**, a layered, immersive storytelling experience that fuses blockchain education, lore-driven gaming, and reader-generated expansion. This repo houses the infrastructure for the **Codex Universe** — beginning with *Genesis Protocol*, evolving through *Codex School*, and culminating in future community-built lore realms.
 
