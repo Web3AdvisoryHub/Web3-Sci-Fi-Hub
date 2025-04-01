@@ -1,0 +1,27 @@
+ "Flame_Arc.json": {
+        "realm_name": "The Flame Arc",
+        "affinity": "Flame",
+        "creator": "builder_HELIOS",
+        "motto": "Born of spark. Forged in chain.",
+        "access_type": "Mentor-Only",
+        "directory_status": "Locked",
+        "quests_available": 1,
+        "map_node": "node_flame_003",
+        "visual_preview": "flame_arc_flare.mov",
+        "soundscape": "embers_rise.ogg",
+        "scroll_gate_required": true,
+        "trailer_scene": "https://codex-media.theweb3scifi.com/realms/flamearc/teaser",
+        "ai_assistant": "Echo (Fire tone)",
+        "shop_enabled": false,
+        "events_active": ["Trial by Fire"]
+    }
+}
+
+# Save each file
+base_path = Path("/mnt/data/codex-core/Directories/")
+base_path.mkdir(parents=True, exist_ok=True)
+
+for filename, content in realm_cards.items():
+    (base_path / filename).write_text(str(content))
+
+list(realm_cards.keys())
